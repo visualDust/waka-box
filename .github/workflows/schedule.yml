@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Update gist
       - name: waka-box
-        uses: matchai/waka-box@v5.0.0
+        uses: matchai/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 8068fc9a5edabdb91bfe5a6a8acac32e
